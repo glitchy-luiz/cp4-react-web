@@ -5,9 +5,10 @@ function Formulario(){
         <div className="formulario">
             <Campotexto nome='Nome:'/>
             <Campotexto nome='Email:'/>
-            <h4>Mansegem:</h4>
-            <textarea name="" id=""></textarea>
-            <button>Enviar</button>
+            <h4 className="nomecampo">Mensagem:</h4>
+            <textarea className="areacampo" name="" id=""></textarea>
+            <br/>
+            <button className="btnform">Enviar</button>
         </div>
     )
 }

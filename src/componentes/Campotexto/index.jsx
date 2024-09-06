@@ -1,10 +1,10 @@
 
 function Campotexto(props){
     return(
-        <>
-            <h4>{props.nome}</h4>
-            <input type="text" name="" id="" />
-        </>
+        <div className="campotexto">
+            <h4 className="nomecampo">{props.nome}</h4>
+            <input className="espacocampo" type="text" name="" id="" />
+        </div>
     )
 }
 

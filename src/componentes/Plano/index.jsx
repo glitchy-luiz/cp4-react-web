@@ -16,7 +16,10 @@ function Plano ({dados}){
                         <p>{pegaDados.usuario2}</p>
                         <p>{pegaDados.texto2}</p>
                         <p>{pegaDados.preco2}</p>
-                        <button style={{backgroundColor: pegaDados.cor}}>{pegaDados.botao}</button>
+
+                        <img src={pegaDados.img} alt="" />
+                        <br/>
+                        <button className="btnplano" style={{backgroundColor: pegaDados.cor}}>{pegaDados.botao}</button>
                     </div>
                 ))
             }

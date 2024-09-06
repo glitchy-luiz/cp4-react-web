@@ -24,6 +24,7 @@ function Sobre(){
         },
         {
             titulo:'Corporativos',
+            img:'/mobile.png',
             botao:'Entre em contato'
         }
     ]

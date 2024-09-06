@@ -71,6 +71,7 @@
 .plano{
     border: 1px solid black;
     max-width: 350px;
+    height: 350px;
     margin: 40px;
     padding: 30px;
     border-radius: 25px;
@@ -82,6 +83,10 @@
 .cordestaque{
     padding: 30px;
 }
+.btnplano{
+    margin-bottom: 10%;
+}
+
 
 .imgcontato{
     max-width: 80px;
@@ -93,7 +98,38 @@
 .contato{
     display: flex;
     margin: 0px 120px;
+    justify-content: center
 }
 .textoaside{
-    max-width: 60%;
+    max-width: 50%;
+}
+
+.campotexto{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+.nomecampo{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.espacocampo{
+    text-decoration: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 400px;
+}
+.areacampo{
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+}
+.btnform{
+    margin-top: 10px;
+    margin-left: 70%;
+    padding: 10px 60px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-size: 15px;
 }
