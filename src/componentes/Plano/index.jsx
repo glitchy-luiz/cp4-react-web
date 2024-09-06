@@ -2,10 +2,10 @@
 
 function Plano ({dados}){
     return(
-        <>
+        <div className="todoplano">
             {
                 dados.map((pegaDados)=>(
-                    <div>
+                    <div className="plano">
                         <div className="cordestaque" style={{backgroundColor: pegaDados.cor}}>
                             <h3>{pegaDados.titulo}</h3>
                         </div>
@@ -20,7 +20,7 @@ function Plano ({dados}){
                     </div>
                 ))
             }
-        </>
+        </div>
     )
 }
 

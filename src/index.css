@@ -39,3 +39,61 @@
     padding: 15px;
     border-radius: 50px;
 }
+
+.card{
+    max-width: 300px;
+    margin: 80px 20px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+.todocard{
+    display: flex;
+    justify-content: center;
+}
+.ncard{
+    color:azure;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.imgcard{
+    position: absolute;
+    display: flex;
+    margin-left: 16%;
+    margin-top: -6%;
+}
+.contcard{
+    margin: 15px;
+}
+.txtcard{
+    width: 300px;
+}
+
+.plano{
+    border: 1px solid black;
+    max-width: 350px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.todoplano{
+    display: flex;
+    justify-content: center;
+}
+.cordestaque{
+    padding: 30px;
+}
+
+.imgcontato{
+    max-width: 80px;
+    max-height: 80px;
+}
+.titconteudo{
+    font-size: 80px;
+}
+.contato{
+    display: flex;
+    margin: 0px 120px;
+}
+.textoaside{
+    max-width: 60%;
+}

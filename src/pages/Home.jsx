@@ -6,25 +6,25 @@ function Home(){
 
     const social = [
         {
-            img:'',
+            img:'/yt.png',
             subtitulo:'Youtube',
             texto:'Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.',
             color:'red'
         },
         {
-            img:'',
+            img:'/tk.png',
             subtitulo:'Tiktok',
             texto:'Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.',
             color:'yellow'
         },
         {
-            img:'',
+            img:'/fb.png',
             subtitulo:'Facebook',
             texto:'Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.',
             color:'lightblue'
         },
         {
-            img:'',
+            img:'/ig.png',
             subtitulo:'Instagram',
             texto:'Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.',
             color:'blue'

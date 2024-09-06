@@ -1,12 +1,12 @@
 
 function Textoaside(props){
     return(
-        <>
-            <h1>{props.titulo}</h1>
-            <img src={props.icone1} alt="" />
-            <img src={props.icone2} alt="" />
-            <img src={props.icone3} alt="" />
-        </>
+        <div className="textoaside">
+            <h1 className="titconteudo">{props.titulo}</h1>
+            <img className="imgcontato" src={props.icone1} alt="" />
+            <img className="imgcontato" src={props.icone2} alt="" />
+            <img className="imgcontato" src={props.icone3} alt="" />
+        </div>
     )
 }
 
