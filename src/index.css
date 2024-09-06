@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.link{
+    margin: 0px 35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.imgapresentacao{
+    max-width: 600px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+.apresentacao{
+    display: flex;
+    justify-content: center;
+}
+.tituloapresentacao{
+    font-size: 70px;
+    max-width: 600px;
+}
+.descricaoapresentacao{
+    max-width: 600px;
+    font-size: 30px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 35px;
+    background-color: darkslategray;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 50px;
+}

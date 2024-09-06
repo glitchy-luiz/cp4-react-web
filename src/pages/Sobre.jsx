@@ -11,6 +11,20 @@ function Sobre(){
             texto:'10 videos',
             preco:'R$15',
             botao:'Cadastrar'
+        },
+        {
+            titulo:'Profissinal - Times',
+            usuario:'1-10 usuáriow',
+            texto:'Vídeos ilimitados',
+            preco:'R$40',
+            usuario2:'+10 usuários',
+            texto2:'Vídeos ilimitados',
+            preco2:'R$20',
+            botao:'Cadastrar'
+        },
+        {
+            titulo:'Corporativos',
+            botao:'Entre em contato'
         }
     ]
 

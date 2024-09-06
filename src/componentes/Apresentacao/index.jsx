@@ -2,10 +2,14 @@
 function Apresentacao (props){
     return(
         <>
-            <h1>{props.titulo}</h1>
-            <p>{props.texto}</p>
-            <a href="">{props.botao}</a>
-            <img src={props.img} alt="" />
+            <div className="apresentacao">
+                <div className="textoapresentacao">
+                    <h1 className="tituloapresentacao">{props.titulo}</h1>
+                    <p className="descricaoapresentacao">{props.texto}</p>
+                    <a className="btn" href="">{props.botao}</a>
+                </div>
+                <img className="imgapresentacao" src={props.img} alt="" />
+            </div>
         </>
     )
 }
